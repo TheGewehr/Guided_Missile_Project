@@ -23,8 +23,8 @@ public class AirplaneController : MonoBehaviour
     public float Roll;
     [Range(0, 1)]
     public float Flap;
-    [SerializeField]
-    Text displayText = null;
+    //[SerializeField]
+    //Text displayText = null;
 
     float thrustPercent;
     //float brakesTorque;
